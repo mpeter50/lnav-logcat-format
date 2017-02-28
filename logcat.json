@@ -1,3 +1,4 @@
+#! /usr/bin/env lnav -i
 {
     "logcat_log" : {
       "title" : "logcat",
