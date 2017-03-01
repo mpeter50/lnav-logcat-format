@@ -13,9 +13,10 @@
       "level-field" : "level",
       "level" : {
         "trace" : "V",
-        "error" : "E",
-        "warning" : "W",
+        "debug" : "D",
         "info": "I",
+        "warning" : "W",
+        "error" : "E",
         "fatal": "F"
       },
       "opid-field" : "log_pid",
