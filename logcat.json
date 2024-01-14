@@ -40,7 +40,7 @@
           "line" : "01-14 17:00:04.817   701  2042 I android.hardware.usb@1.0-service: canChangeMode: 1 canChagedata: 1 canChangePower:1",
           "line" : "01-14 17:00:03.978 24312 24778 D OffsetFinder: findOffsetCustom: found value 268959769 at 4 (with arg: 25)",
           "line" : "01-14 17:00:04.052  4453  4453 V com.jarsilio.android.waveup (ProximitySensorHandler): Proximity sensor changed: FAR (current sensor value: 5.0 - max. sensor value: 5.0)",
-          "line" : "01-14 17:00:04.835   516   516 W Binder:516_1: type=1400 audit(0.0:1361): avc: denied { read } for name="wakeup8" dev="sysfs" ino=46048 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0"
+          "line" : "01-14 17:00:04.835   516   516 W Binder:516_1: type=1400 audit(0.0:1361): avc: denied { read } for name=\"wakeup8\" dev=\"sysfs\" ino=46048 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0"
         }
       ]
     }
