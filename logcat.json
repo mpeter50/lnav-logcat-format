@@ -6,7 +6,7 @@
       "url" : "https://developer.android.com/studio/command-line/logcat.html",
       "regex" : {
         "std" : {
-          "pattern" : "^(?<timestamp>\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2}.\\d{3})\\s+(?<log_pid>\\w+)\\s+(?<log_tid>\\w+)\\s+(?<level>\\w)\\s+(?:\\[@@\\s+\\]\\s)?(?<log_tag>.*)(?:\\s+)?:\\s+(?<body>.*)$"
+          "pattern" : "^(?<timestamp>\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2}.\\d{3})\\s+(?<log_pid>\\w+)\\s+(?<log_tid>\\w+)\\s+(?<level>\\w)\\s+(?:\\[@@\\s+\\]\\s)?(?<log_tag>.*?)(?:\\s+)?:\\s+(?<body>.*)$"
         }
       },
       "timestamp-format" : ["%m-%d %H:%M:%S.%L"],
@@ -36,7 +36,11 @@
       },
       "sample" : [
         {
-          "line" : "01-01 02:50:25.351  1310  1502 V WindowManager: handleMessage: exit"
+          "line" : "01-01 02:50:25.351  1310  1502 V WindowManager: handleMessage: exit",
+          "line" : "01-14 17:00:04.817   701  2042 I android.hardware.usb@1.0-service: canChangeMode: 1 canChagedata: 1 canChangePower:1",
+          "line" : "01-14 17:00:03.978 24312 24778 D OffsetFinder: findOffsetCustom: found value 268959769 at 4 (with arg: 25)",
+          "line" : "01-14 17:00:04.052  4453  4453 V com.jarsilio.android.waveup (ProximitySensorHandler): Proximity sensor changed: FAR (current sensor value: 5.0 - max. sensor value: 5.0)",
+          "line" : "01-14 17:00:04.835   516   516 W Binder:516_1: type=1400 audit(0.0:1361): avc: denied { read } for name="wakeup8" dev="sysfs" ino=46048 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0"
         }
       ]
     }
